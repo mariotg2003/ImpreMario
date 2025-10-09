@@ -11,86 +11,91 @@
     <title>ImpreMario3D</title>
   </head>
   <body>
-    <head>
-      <div class="container text-center mt-4">
-        <h1>ImpreMario3D</h1>
+    <div class="container" id="divHeader">
+      <div class="row">
+        <div
+          class="col-12 col-md-2 mb-2 d-flex align-items-center justify-content-center"
+        >
+          <button class="btn btn-primary w-100 botones">CATÁLOGO</button>
+        </div>
+        <div class="col-12 col-md-7 mb-2" id="divLogo">
+          <img src="imgs/LogoImper.png" alt="Logo" class="img-fit" />
+        </div>
+        <div
+          class="col-12 col-md-2 mb-2 d-flex align-items-center justify-content-center"
+        >
+          <button class="btn btn-primary w-100 botones">CONTACTO</button>
+        </div>
       </div>
-      <!-- CATALOGO-->
-      <div class="row mt-5 col-12 text-center" id="catalogo">
-        <div>
-          <h2 class="titulos">CATALOGO</h2>
-        </div>
-        <div class="botones-catalogo col-12 col-md-6">
-          <div class="titulos botones-productos btn btn-primary">RESINA</div>
-        </div>
-        <div class="botones-catalogo col-12 col-md-6">
-          <div class="titulos botones-productos btn btn-primary">FILAMENTO</div>
-        </div>
-      </div>
-    </head>
-    <body>
-      <!-- CUERPO PRINCIPAL PAGINA-->
-      <div class="row cuerpoPagina col-12 mt-5">
-        <div class="col-12 col-lg-9 col-md-5">
-          <div class="container contenedorFotos">
-            <div class="row">
-              <div
-                class="btn btn-primary col-12 col-lg-2 col-md-3 botonCarrusel"
-              >
-                &lt;
-              </div>
+    </div>
+
+    <div class="container text-center" id="divPrincipal">
+      <div class="row">
+        <div class="col-12 col-md-7" id="divImagenes">
+          <div class="row align-items-center justify-content-center">
+            <div class="col-2 text-center">
+              <button class="btn btn-outline-primary">&lt;</button>
+            </div>
+            <div class="col-6 text-center">
               <img
-                class="col-12 col-lg-8 col-md-6 imagenesCarrusel"
-                src="imgs/newRelease/corona.jpeg"
-                alt="Corona Perro Andalú Resina"
+                src="imgs/newRelease/redoblin.jpeg"
+                alt="IMAGEN"
+                class="img-fluid"
               />
-              <div
-                class="btn btn-primary col-12 col-lg-2 col-md-3 botonCarrusel"
-              >
-                &gt;
-              </div>
+            </div>
+            <div class="col-2 text-center">
+              <button class="btn btn-outline-primary">&gt;</button>
             </div>
           </div>
         </div>
-        <div class="col-12 col-lg-3 col-md-7">
-          <div class="carrusel">dasdasdasdasd</div>
+        <div class="col-12 col-md-1"></div>
+        <div class="col-12 col-md-4" id="divInfo">
+          <h1>Lorem Ipsum</h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+            fringilla, nunc nec laoreet facilisis, nunc nisl aliquam nunc, eu
+            aliquam nisl nunc eu nunc. Sed fringilla, nunc nec laoreet
+            facilisis, nunc nisl aliquam nunc, eu aliquam nisl nunc eu nunc
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+            fringilla, nunc nec laoreet facilisis, nunc nisl aliquam nunc, eu
+            aliquam nisl nunc eu nunc. Sed fringilla, nunc nec laoreet
+            facilisis, nunc nisl aliquam nunc, eu aliquam nisl nunc eu nunc
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+            fringilla, nunc nec laoreet facilisis, nunc nisl aliquam nunc, eu
+            aliquam nisl nunc eu nunc. Sed fringilla, nunc nec laoreet
+            facilisis, nunc nisl aliquam nunc, eu aliquam nisl nunc eu nunc
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+            fringilla, nunc nec laoreet facilisis, nunc nisl aliquam nunc, eu
+            aliquam nisl nunc eu nunc. Sed fringilla, nunc nec laoreet
+            facilisis, nunc nisl aliquam nunc, eu aliquam nisl nunc eu nunc
+          </p>
         </div>
       </div>
+    </div>
 
-      <!-- BOTONES INFO NOSOTOS-->
-      <div class="row sobreNosotros">
-        <h2>SOBRE NOSOTROS</h2>
-        <div
-          class="titulos infoNosotros col-12 col-lg-2 col-md-3"
-          id="infoNosotros-1"
-        >
-          Impresión Personalizada
+    <div class="container text-center" id="divBotones">
+      <div class="row">
+        <div class="col-12 col-md-3">
+          <button class="btn btn-primary botones">Quienes Somos</button>
         </div>
-        <div
-          class="titulos infoNosotros col-12 col-lg-2 col-md-3"
-          id="infoNosotros-2"
-        >
-          Resina o Filamento <br />
-          ¡Tu eliges!
+        <div class="col-12 col-md-3">
+          <button class="btn btn-primary botones">Que hacemos</button>
         </div>
-        <div
-          class="titulos infoNosotros col-12 col-lg-2 col-md-3"
-          id="infoNosotros-3"
-        >
-          PRE y POST procesado
+        <div class="col-12 col-md-3">
+          <button class="btn btn-primary botones">Cómo lo hacemos</button>
         </div>
-        <div
-          class="titulos infoNosotros col-12 col-lg-2 col-md-3"
-          id="infoNosotros-4"
-        >
-          Pintura
+        <div class="col-12 col-md-3">
+          <button class="btn btn-primary botones">Hacia dónde vamos</button>
         </div>
       </div>
-    </body>
-    <footer class="fixed">
-      <div class="container text-center mt-4">
-        <p>&copy; 2023 ImpreMario3D</p>
+    </div>
+
+    <footer class="fixed py-3" id="foot">
+      <div class="container text-center">
+        <p class="mb-0">&copy; 2023 ImpreMario3D</p>
       </div>
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
